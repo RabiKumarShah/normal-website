@@ -1,0 +1,81 @@
+a:link {
+  color: maroon;
+}
+/* unvisited link */
+
+
+
+a:visited {
+  color: purple;
+}
+/* visited link */
+
+
+
+a:hover {
+  color: gray;
+}
+/* mouse over link */
+
+
+a:active {
+  color: blue;
+}
+/*  the moment when link is clicked  */
+.F_name{
+	font-weight: 800;
+
+}
+.L_name{
+	font-weight: 200;
+
+}
+.basic_contact{
+	margin-bottom: 25px; 
+}
+.mail,.phone{
+font-weight: 100;
+}
+.mail_value, .number{
+	font-weight: 1000;
+	
+}
+.vertical_line{
+	height: 20px;
+	display: inline-block;
+	border: 2px solid #000000;
+	margin: -7px 5px;
+}
+.one{
+  text-align: center;
+  padding: 0px 10px ;
+}
+.tab{
+	
+	font-size: 20px;
+	transition: .3s;
+}
+
+.interest{
+font-size: 20px;
+transition: .3s;
+}
+.skills{
+	transition: .3s;
+	font-size: 20px;
+}
+.qualification{
+	
+	font-size: 20px;
+	transition: .3s;
+}
+.two{
+   padding: 10px;
+}
+.border_text {
+	color: maroon;
+    background-color: aliceblue;
+    padding: 5px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, arials;
+ }

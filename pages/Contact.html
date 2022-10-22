@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet"  href="../style/contact.css">
+	<title>Contact Us</title>
+
+	<style>
+		
+		body {
+background-image: url(../images/contactback.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+/*This is an internal CSS where the webpage properties are set it can only be defined inside the style tag*/
+html {
+scroll-behavior: smooth;
+
+}
+.text2 {
+		font-family:Comic Sans MS;
+		color:#cc0099;
+}
+	</style>
+	<script src="../script/feedbackForm.js"></script>
+</head>
+<body>
+
+ <header>
+  <div class="title">
+    <h1 style="padding-top: 10%">Contact</h1>
+    <div class="basic_contact">
+  <span class="mail">Email:</span>
+  <span class="mail_value"><a style="text-decoration:none;" href="mailto:rabikumarshah21.com" target="_blank">rabikumarshah21@gmail.com</a></span>
+  <span class="vertical_line"></span>
+  <span class="mail">Phone:</span>
+  <span class="number">+9779803739977</span> 
+</div>
+  <hr/>
+  <p id="demo"></p>
+  <script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d.toString();
+</script>
+
+
+    <p class="feedback"><a href="#feedback">FEEDBACK</a></p>
+  </div>
+</header><br>
+
+<section id="feedback">
+<div class="box">
+	<h1 id ="title" class="form2" style="color:purple;">Complain, Suggestion and Feedback Form:</h1><button onclick="change()">Change color</button>
+	<p class="form2"></p>
+			
+			<form name="messageForm" onsubmit="feedbackForm()" >
+				<p class="form1">First name: <input type="text" name="firstname"></p>
+				<p class="form1">Last name: <input type="text" name="lastname"></p>
+				<p class="form1">E-mail: <input type="email" name="E-mail"></p>
+				<p class="form1">Gender: <input type="radio" name="gender" value="male" checked> Male 
+				<input type="radio" name="gender" value="female"> Female </p>
+				<p class="form1">Message:</p>
+				<p class="form1"><textarea name="message" rows="10" cols="35" placeholder="Tell us what you think"></textarea></p>
+				<input type="submit" onclick="thankYou()" value="Send">
+			</form>
+</div>
+</section>
+<footer>
+	<a href="../index.html">Click to go back</a>
+</footer>
+</body>
+</html>

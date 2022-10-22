@@ -1,0 +1,107 @@
+a:link {
+  color: maroon;
+}
+/* unvisited link */
+
+
+
+a:visited {
+  color: purple;
+}
+/* visited link */
+
+
+
+a:hover {
+  color: hotpink;
+}
+/* mouse over link */
+
+
+a:active {
+  color: gray;
+}
+/*  the moment when link is clicked  */
+
+h1{
+	font-family: arial;
+	color: black;
+padding-top: 20px; 
+;
+}
+h2{
+	font-family: arial;
+	color: white;
+}
+
+ul{
+	font-family: arial;
+	color: black;
+	font-size: 500;
+}
+li{
+	list-style: none;
+
+	padding: 4px;
+}
+
+.form1{
+	padding-right: 20px;
+	font-family: arial;
+	color: rgb(0, 0, 0);
+	font-size: 10;
+}
+.form2{
+	font-family: arial;
+	color: white;
+	font-size: 25px;
+}
+
+.box {
+
+	width:40%;
+	height: 30%;
+	border: #000000 solid;
+
+	margin-left: 350px;
+	padding-top: 5px;
+	padding-bottom:5px;
+	padding-left: 80px; 
+	font-size: 20px;
+}
+
+.title {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-align: center;
+}
+
+header {
+  background: 
+    url(../images/contact.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.basic_contact{
+	margin-bottom: 25px; 
+}
+.mail,.phone{
+font-weight: 100;
+}
+.mail_value, .number{
+	font-weight: 1000;
+	
+}
+.vertical_line{
+	height: 20px;
+	display: inline-block;
+	border: 2px solid #000000;
+	margin: -7px 5px;
+}
+
+.feedback{
+	font-size: 20px;
+}

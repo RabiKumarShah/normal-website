@@ -1,0 +1,53 @@
+a:link {
+  color: white;
+}
+/* unvisited link */
+
+
+
+a:visited {
+  color: black;
+}
+/* visited link */
+
+
+
+
+/* mouse over link */
+
+
+a:active {
+  color: blue;
+}
+/*  the moment when link is clicked  */
+
+.current {
+font-family: arial;
+text-align: center;
+color: white;
+}
+.heading2forhome{
+	text-align: center;
+	font-family: arial;
+	color: white;
+}
+
+
+.media{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+}
+
+
+li{
+list-style: none;
+margin: 10px 25px;
+display: inline-block;
+font-size: 40px;
+padding-top: 100%;
+
+transition: .3s;
+}
